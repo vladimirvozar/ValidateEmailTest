@@ -87,6 +87,8 @@ namespace ValidateEmailTest
                                 " of " + (GetValidEmails().Count + GetInvalidEmails().Count));
 
             Console.WriteLine("--------------------------------------------------------------------------\n\n");
+            Console.WriteLine("Press any key to exit ...");
+            Console.ReadKey();
         }
 
         public static void TestValidEmails()
